@@ -19,6 +19,9 @@ website:
   search: true
   navbar:
     logo: figures/MPS_logo.png
+    logo-alt: "Jožef Stefan International Postgraduate School"
+    background: "#ffffff"
+    foreground: "#20242a"
     left:
       - href: setup.qmd
         text: Setup

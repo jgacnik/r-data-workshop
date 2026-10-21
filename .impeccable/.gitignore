@@ -1,0 +1,10 @@
+# Local previews, captures, and design-decision runtime files.
+/questions/
+/review/
+/mocks/*
+!/mocks/decision/
+/mocks/decision/*
+!/mocks/decision/course-catalogue.html
+/catalogue-contract.md
+/direction-options.json
+/preview.py

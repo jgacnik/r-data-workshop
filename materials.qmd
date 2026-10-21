@@ -10,9 +10,7 @@ Use the interactive HTML presentations during the workshop. The PDF versions are
 ::: {.materials-list}
 ::: {.material-row}
 ::: {.material-part}
-<span class="part-number">01</span>
-
-### Introduction to R
+## 1. Introduction to R {#introduction-to-r}
 
 Why R, the RStudio interface, objects, functions, packages, and the first analysis workflow.
 :::
@@ -25,9 +23,7 @@ Why R, the RStudio interface, objects, functions, packages, and the first analys
 
 ::: {.material-row}
 ::: {.material-part}
-<span class="part-number">02</span>
-
-### Data visualization
+## 2. Data visualization {#data-visualization}
 
 The grammar of graphics, aesthetics, geometries, labels, themes, and faceting with `ggplot2`.
 :::
@@ -40,9 +36,7 @@ The grammar of graphics, aesthetics, geometries, labels, themes, and faceting wi
 
 ::: {.material-row}
 ::: {.material-part}
-<span class="part-number">03</span>
-
-### Data transformation
+## 3. Data transformation {#data-transformation}
 
 Filtering, creating variables, grouping, summarizing, missing values, and pipelines with `dplyr`.
 :::
@@ -55,9 +49,7 @@ Filtering, creating variables, grouping, summarizing, missing values, and pipeli
 
 ::: {.material-row}
 ::: {.material-part}
-<span class="part-number">04</span>
-
-### Data tidying
+## 4. Data tidying {#data-tidying}
 
 Tidy-data principles, long and wide formats, reshaping, and readable R code.
 :::
@@ -70,9 +62,7 @@ Tidy-data principles, long and wide formats, reshaping, and readable R code.
 
 ::: {.material-row}
 ::: {.material-part}
-<span class="part-number">05</span>
-
-### Projects and data import
+## 5. Projects and data import {#projects-and-data-import}
 
 Paths, RStudio projects, a reproducible folder structure, and importing a CSV file.
 :::
@@ -85,9 +75,7 @@ Paths, RStudio projects, a reproducible folder structure, and importing a CSV fi
 
 ::: {.material-row}
 ::: {.material-part}
-<span class="part-number">06</span>
-
-### Complete project demonstration
+## 6. Complete project demonstration {#complete-project-demonstration}
 
 A guided analysis that connects importing, transforming, tidying, visualising, modelling, and exporting.
 :::

@@ -1,90 +1,48 @@
 ---
+title: "Data Analysis in R workshop"
 pagetitle: "Data Analysis in R workshop"
 description: "Prepare for the workshop, open the interactive course presentations, and download the student project."
 toc: false
 page-layout: full
+body-classes: course-home
 ---
 
-::: {.course-hero}
-::: {.hero-copy}
-<p class="eyebrow">Introductory workshop</p>
+```{=html}
+<section class="course-intro" aria-labelledby="course-title">
+  <div class="intro-copy">
+    <h1 id="course-title">Data Analysis<br>in R</h1>
+    <p class="course-description">Build a practical foundation in R through six hands-on parts: from the first line of code to clear visualizations, reproducible transformations, tidy data, well-organized projects, and a complete demonstration.</p>
+    <p class="workshop-lead">Workshop developed and led by <strong>Asst. Prof. Jan Gačnik</strong>.</p>
+    <a class="btn btn-primary" href="materials.html">View course materials</a>
+  </div>
+  <div class="course-preparation" role="complementary" aria-labelledby="preparation-title">
+    <h2 id="preparation-title">Prepare for the workshop</h2>
+    <p>Install R and RStudio, install the required packages, and test the starter project. The setup guide walks through every step.</p>
+    <p><a href="setup.html">Prepare your computer</a></p>
+    <a href="downloads/example_project.zip" download>Download starter project</a>
+  </div>
+</section>
 
-# Data Analysis in R
+<section class="course-syllabus" aria-labelledby="syllabus-title">
+  <div class="syllabus-heading"><h2 id="syllabus-title">What you will learn</h2></div>
+  <ol class="lesson-list">
+    <li><div class="lesson-copy"><h3><a href="R_part1.html">1. Introduction to R</a></h3><p>Understand why R is useful, meet RStudio, work with objects and functions, and learn how packages extend R.</p></div>
+      <a class="lesson-action" href="R_part1.html" aria-label="Open Part 1: Introduction to R">Open slides</a></li>
+    <li><div class="lesson-copy"><h3><a href="R_part2.html">2. Data visualization</a></h3><p>Build clear, publication-ready graphics layer by layer with <code>ggplot2</code>.</p></div>
+      <a class="lesson-action" href="R_part2.html" aria-label="Open Part 2: Data visualization">Open slides</a></li>
+    <li><div class="lesson-copy"><h3><a href="R_part3.html">3. Data transformation</a></h3><p>Filter, mutate, group, and summarize data using a reproducible pipeline.</p></div>
+      <a class="lesson-action" href="R_part3.html" aria-label="Open Part 3: Data transformation">Open slides</a></li>
+    <li><div class="lesson-copy"><h3><a href="R_part4.html">4. Data tidying</a></h3><p>Recognize tidy data, reshape tables, and turn difficult inputs into analysis-ready datasets.</p></div>
+      <a class="lesson-action" href="R_part4.html" aria-label="Open Part 4: Data tidying">Open slides</a></li>
+    <li><div class="lesson-copy"><h3><a href="R_part5.html">5. Projects and data import</a></h3><p>Use relative paths, organize an RStudio project, and import real data reliably.</p></div>
+      <a class="lesson-action" href="R_part5.html" aria-label="Open Part 5: Projects and data import">Open slides</a></li>
+    <li><div class="lesson-copy"><h3><a href="R_part6.html">6. Complete project demonstration</a></h3><p>A guided analysis that connects importing, transforming, tidying, visualising, modelling, and exporting.</p></div>
+      <a class="lesson-action" href="R_part6.html" aria-label="Open Part 6: Complete project demonstration">Open slides</a></li>
+  </ol>
+</section>
+```
 
-Build a practical foundation in R through six hands-on parts: from the first line of code to clear visualizations, reproducible transformations, tidy data, well-organized projects, and a complete demonstration.
-
-<p class="workshop-lead">Workshop developed and led by <strong>Asst. Prof. Jan Gačnik</strong>.</p>
-
-::: {.hero-actions}
-[Prepare your computer](setup.qmd){.btn .btn-primary .btn-lg}
-[View course materials](materials.qmd){.btn .btn-outline-primary .btn-lg}
-[Download starter project](downloads/example_project.zip){.btn .btn-outline-secondary .btn-lg download=""}
-:::
-:::
-
-::: {.hero-mark}
-![](figures/MPS_logo.png){fig-alt="Jožef Stefan International Postgraduate School logo"}
-:::
-:::
-
-::: {.student-note}
-**Before the workshop:** install R and RStudio, install the required packages, and test the starter project. The [setup guide](setup.qmd) walks through every step.
-:::
-
-## What you will learn
-
-::: {.course-grid}
-::: {.course-card}
-<span class="part-number">01</span>
-
-### Introduction to R
-
-Understand why R is useful, meet RStudio, work with objects and functions, and learn how packages extend R.
-
-[Open Part 1](R_part1.qmd)
-:::
-
-::: {.course-card}
-<span class="part-number">02</span>
-
-### Data visualization
-
-Build clear, publication-ready graphics layer by layer with `ggplot2`.
-
-[Open Part 2](R_part2.qmd)
-:::
-
-::: {.course-card}
-<span class="part-number">03</span>
-
-### Data transformation
-
-Filter, mutate, group, and summarize data using a reproducible pipeline.
-
-[Open Part 3](R_part3.qmd)
-:::
-
-::: {.course-card}
-<span class="part-number">04</span>
-
-### Data tidying
-
-Recognize tidy data, reshape tables, and turn difficult inputs into analysis-ready datasets.
-
-[Open Part 4](R_part4.qmd)
-:::
-
-::: {.course-card}
-<span class="part-number">05</span>
-
-### Projects and data import
-
-Use relative paths, organize an RStudio project, and import real data reliably.
-
-[Open Part 5](R_part5.qmd)
-:::
-:::
-
+::: {.course-usage}
 ## How to use these materials
 
 ::: {.use-grid}
@@ -106,10 +64,11 @@ Keep the interactive HTML slides open in your browser and use RStudio for the ha
 Use the PDFs for quick reference and return to the interactive slides whenever you want to rerun an example. The complete source remains available in the [GitHub repository](https://github.com/jgacnik/r-data-workshop).
 :::
 :::
+:::
 
 ::: {.next-step}
 ### Ready to begin?
 
-[Complete the setup →](setup.qmd){.btn .btn-primary}
-[Go directly to Part 1 →](R_part1.qmd){.btn .btn-link}
+[Complete the setup](setup.qmd){.btn .btn-primary}
+[Go directly to Part 1](R_part1.qmd){.btn .btn-link}
 :::

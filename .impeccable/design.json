@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T07:53:07.964Z",
+  "title": "Design System: Data Analysis in R",
+  "extensions": {
+    "colorMeta": {
+      "course-paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95% 0.00000 0.00)"
+        ]
+      },
+      "course-ink": {
+        "role": "neutral",
+        "displayName": "Charcoal ink",
+        "tonalRamp": [
+          "oklch(15% 0.01272 258.37)",
+          "oklch(26.43% 0.01272 258.37)",
+          "oklch(37.86% 0.01272 258.37)",
+          "oklch(49.29% 0.01272 258.37)",
+          "oklch(60.71% 0.01272 258.37)",
+          "oklch(72.14% 0.01272 258.37)",
+          "oklch(83.57% 0.01272 258.37)",
+          "oklch(95% 0.01272 258.37)"
+        ]
+      },
+      "course-muted": {
+        "role": "neutral",
+        "displayName": "Muted slate",
+        "tonalRamp": [
+          "oklch(15% 0.02042 256.35)",
+          "oklch(26.43% 0.02042 256.35)",
+          "oklch(37.86% 0.02042 256.35)",
+          "oklch(49.29% 0.02042 256.35)",
+          "oklch(60.71% 0.02042 256.35)",
+          "oklch(72.14% 0.02042 256.35)",
+          "oklch(83.57% 0.02042 256.35)",
+          "oklch(95% 0.02042 256.35)"
+        ]
+      },
+      "course-blue": {
+        "role": "primary",
+        "displayName": "Course blue",
+        "tonalRamp": [
+          "oklch(15% 0.19541 263.23)",
+          "oklch(26.43% 0.19541 263.23)",
+          "oklch(37.86% 0.19541 263.23)",
+          "oklch(49.29% 0.19541 263.23)",
+          "oklch(60.71% 0.19541 263.23)",
+          "oklch(72.14% 0.19541 263.23)",
+          "oklch(83.57% 0.19541 263.23)",
+          "oklch(95% 0.19541 263.23)"
+        ]
+      },
+      "course-blue-dark": {
+        "role": "primary",
+        "displayName": "Deep course blue",
+        "tonalRamp": [
+          "oklch(15% 0.14369 262.43)",
+          "oklch(26.43% 0.14369 262.43)",
+          "oklch(37.86% 0.14369 262.43)",
+          "oklch(49.29% 0.14369 262.43)",
+          "oklch(60.71% 0.14369 262.43)",
+          "oklch(72.14% 0.14369 262.43)",
+          "oklch(83.57% 0.14369 262.43)",
+          "oklch(95% 0.14369 262.43)"
+        ]
+      },
+      "course-wash": {
+        "role": "neutral",
+        "displayName": "Pale wash",
+        "tonalRamp": [
+          "oklch(15% 0.00132 286.38)",
+          "oklch(26.43% 0.00132 286.38)",
+          "oklch(37.86% 0.00132 286.38)",
+          "oklch(49.29% 0.00132 286.38)",
+          "oklch(60.71% 0.00132 286.38)",
+          "oklch(72.14% 0.00132 286.38)",
+          "oklch(83.57% 0.00132 286.38)",
+          "oklch(95% 0.00132 286.38)"
+        ]
+      },
+      "course-line": {
+        "role": "neutral",
+        "displayName": "Fine grey",
+        "tonalRamp": [
+          "oklch(15% 0.00553 274.96)",
+          "oklch(26.43% 0.00553 274.96)",
+          "oklch(37.86% 0.00553 274.96)",
+          "oklch(49.29% 0.00553 274.96)",
+          "oklch(60.71% 0.00553 274.96)",
+          "oklch(72.14% 0.00553 274.96)",
+          "oklch(83.57% 0.00553 274.96)",
+          "oklch(95% 0.00553 274.96)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Homepage display",
+        "purpose": "Source rem sizing; mobile clamp documented in DESIGN.md."
+      },
+      "headline": {
+        "displayName": "Inner-page heading",
+        "purpose": "Source rem sizing; observed mobile root is 17px."
+      },
+      "title": {
+        "displayName": "Lesson title",
+        "purpose": "Readable number and title in one heading."
+      },
+      "body": {
+        "displayName": "Reading text",
+        "purpose": "Body copy; observed mobile computed size 18.0625px."
+      },
+      "label": {
+        "displayName": "Supporting text",
+        "purpose": "Lesson actions, homepage descriptions and compact material buttons."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "colour-state",
+        "value": "160ms ease-out",
+        "purpose": "Button colour/border and lesson-row background transitions; removed with reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "materials-stack",
+        "value": "1100px"
+      },
+      {
+        "name": "navigation-collapse",
+        "value": "991px"
+      },
+      {
+        "name": "mobile-reading",
+        "value": "700px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Filled course action with deep-blue interaction states.",
+      "html": "<a class=\"ds-button ds-primary ds-focus\" href=\"materials.html\">View course materials</a>",
+      "css": ".ds-button { display:inline-block; font-family:var(--course-font,\"Helvetica Neue\",Helvetica,Arial,sans-serif); font-size:1rem; font-weight:500; line-height:1.5; padding:.65rem 1.125rem; border:1px solid; border-radius:2px; text-decoration:none; box-shadow:none; transition:color 160ms ease-out,background-color 160ms ease-out,border-color 160ms ease-out; } .ds-focus:focus-visible { outline:2px solid var(--course-focus,#002fa7); outline-offset:4px; } @media(prefers-reduced-motion:reduce){.ds-button{transition:none}} .ds-primary{color:var(--course-paper,#fff);background:var(--course-blue,#002fa7);border-color:var(--course-blue,#002fa7)} .ds-primary:hover,.ds-primary:focus-visible,.ds-primary:active{color:var(--course-paper,#fff);background:var(--course-blue-dark,#002374);border-color:var(--course-blue-dark,#002374)}"
+    },
+    {
+      "name": "Outline button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary repository or PDF action.",
+      "html": "<a class=\"ds-button ds-outline ds-focus\" href=\"https://github.com/jgacnik/r-data-workshop\">Open the GitHub repository</a>",
+      "css": ".ds-button { display:inline-block; font-family:var(--course-font,\"Helvetica Neue\",Helvetica,Arial,sans-serif); font-size:1rem; font-weight:500; line-height:1.5; padding:.65rem 1.125rem; border:1px solid; border-radius:2px; text-decoration:none; box-shadow:none; transition:color 160ms ease-out,background-color 160ms ease-out,border-color 160ms ease-out; } .ds-focus:focus-visible { outline:2px solid var(--course-focus,#002fa7); outline-offset:4px; } @media(prefers-reduced-motion:reduce){.ds-button{transition:none}} .ds-outline{color:var(--course-blue,#002fa7);background:transparent;border-color:var(--course-line,#dedfe3)} .ds-outline:hover{color:var(--course-blue,#002fa7);background:var(--course-wash,#f7f7f8);border-color:var(--course-blue,#002fa7)}"
+    },
+    {
+      "name": "Link action",
+      "kind": "button",
+      "refersTo": "button-link",
+      "description": "Underlined action paired with a filled button.",
+      "html": "<a class=\"ds-button ds-link ds-focus\" href=\"R_part1.html\">Go directly to Part 1</a>",
+      "css": ".ds-button { display:inline-block; font-family:var(--course-font,\"Helvetica Neue\",Helvetica,Arial,sans-serif); font-size:1rem; font-weight:500; line-height:1.5; padding:.65rem 1.125rem; border:1px solid; border-radius:2px; text-decoration:none; box-shadow:none; transition:color 160ms ease-out,background-color 160ms ease-out,border-color 160ms ease-out; } .ds-focus:focus-visible { outline:2px solid var(--course-focus,#002fa7); outline-offset:4px; } @media(prefers-reduced-motion:reduce){.ds-button{transition:none}} .ds-link{color:var(--course-blue,#002fa7);background:transparent;border-color:transparent;padding-inline:0;text-decoration:underline;text-underline-offset:.22em} .ds-link:hover{color:var(--course-blue-dark,#002374)}"
+    },
+    {
+      "name": "Navigation links",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Existing selected Materials link, with restrained underline.",
+      "html": "<nav class=\"ds-navigation\" aria-label=\"Course\"><a class=\"ds-focus\" href=\"setup.html\">Setup</a><a class=\"ds-focus ds-selected\" aria-current=\"page\" href=\"materials.html\">Materials</a></nav>",
+      "css": ".ds-navigation{display:flex;gap:1.5rem;background:var(--course-paper,#fff);font-family:var(--course-font,\"Helvetica Neue\",Helvetica,Arial,sans-serif)} .ds-navigation a{position:relative;color:var(--course-muted,#555d68);font-size:.9375rem;font-weight:500;padding:.65rem 0;text-decoration:none} .ds-navigation a:hover,.ds-navigation a:focus-visible,.ds-navigation .ds-selected{color:var(--course-blue,#002fa7)} .ds-selected:after{content:'';position:absolute;right:0;bottom:.25rem;left:0;height:2px;background:var(--course-blue,#002fa7)} .ds-focus:focus-visible { outline:2px solid var(--course-focus,#002fa7); outline-offset:4px; }"
+    },
+    {
+      "name": "Lesson row",
+      "kind": "custom",
+      "refersTo": "lesson-row",
+      "description": "Heading-integrated lesson number with coordinated hover and keyboard focus.",
+      "html": "<article class=\"ds-lesson\"><div><h3><a class=\"ds-focus\" href=\"R_part1.html\">1. Introduction to R</a></h3><p>Understand why R is useful, meet RStudio, work with objects and functions, and learn how packages extend R.</p></div><a class=\"ds-action ds-focus\" href=\"R_part1.html\" aria-label=\"Open Part 1: Introduction to R\">Open slides</a></article>",
+      "css": ".ds-lesson{display:grid;grid-template-columns:minmax(0,1fr) 5.5rem;align-items:baseline;gap:1.125rem;padding:1rem 0;border-bottom:1px solid var(--course-line,#dedfe3);font-family:var(--course-font,\"Helvetica Neue\",Helvetica,Arial,sans-serif);transition:background-color 160ms ease-out} .ds-lesson h3{margin:0;font-size:1.25rem;font-weight:500;line-height:1.3;letter-spacing:-.015em} .ds-lesson h3 a{color:var(--course-ink,#20242a);text-decoration:none} .ds-lesson p{margin:.35rem 0 0;color:var(--course-muted,#555d68);font-size:.875rem;line-height:1.5} .ds-action{font-size:.875rem;color:var(--course-blue,#002fa7);white-space:nowrap;text-underline-offset:.22em} .ds-lesson:hover,.ds-lesson:focus-within{background:var(--course-wash,#f7f7f8)} .ds-lesson:hover h3 a,.ds-lesson:focus-within h3 a{color:var(--course-blue,#002fa7);text-decoration:underline} .ds-focus:focus-visible { outline:2px solid var(--course-focus,#002fa7); outline-offset:4px; } @media(max-width:700px){.ds-lesson{grid-template-columns:1fr;padding-block:1.25rem}.ds-lesson h3{font-size:1.125rem}.ds-action{margin-top:.6rem}} @media(prefers-reduced-motion:reduce){.ds-lesson{transition:none}}"
+    },
+    {
+      "name": "Material row",
+      "kind": "custom",
+      "refersTo": "material-row",
+      "description": "Readable lesson heading and description with compact slides and PDF actions.",
+      "html": "<article class=\"ds-material\"><div><h2>1. Introduction to R</h2><p>Why R, the RStudio interface, objects, functions, packages, and the first analysis workflow.</p></div><div class=\"ds-actions\"><a class=\"ds-button ds-primary ds-focus\" href=\"R_part1.html\">Interactive slides</a><a class=\"ds-button ds-outline ds-focus\" href=\"downloads/slides/R_part1.pdf\" download>PDF</a></div></article>",
+      "css": ".ds-button { display:inline-block; font-family:var(--course-font,\"Helvetica Neue\",Helvetica,Arial,sans-serif); font-size:1rem; font-weight:500; line-height:1.5; padding:.65rem 1.125rem; border:1px solid; border-radius:2px; text-decoration:none; box-shadow:none; transition:color 160ms ease-out,background-color 160ms ease-out,border-color 160ms ease-out; } .ds-focus:focus-visible { outline:2px solid var(--course-focus,#002fa7); outline-offset:4px; } @media(prefers-reduced-motion:reduce){.ds-button{transition:none}} .ds-material{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1.5rem;align-items:center;padding:1.5rem 0;border-bottom:1px solid var(--course-line,#dedfe3);font-family:var(--course-font,\"Helvetica Neue\",Helvetica,Arial,sans-serif)} .ds-material h2{margin:0 0 .45rem;color:var(--course-ink,#20242a);font-size:1.25rem;font-weight:500;letter-spacing:-.025em} .ds-material p{margin:0;color:var(--course-muted,#555d68);font-size:.9375rem;line-height:1.65} .ds-actions{display:flex;flex-wrap:wrap;gap:.5rem} .ds-actions .ds-button{padding:.5rem .75rem;font-size:.875rem} .ds-primary{color:var(--course-paper,#fff);background:var(--course-blue,#002fa7);border-color:var(--course-blue,#002fa7)} .ds-primary:hover,.ds-primary:focus-visible,.ds-primary:active{color:var(--course-paper,#fff);background:var(--course-blue-dark,#002374);border-color:var(--course-blue-dark,#002374)} .ds-outline{color:var(--course-blue,#002fa7);background:transparent;border-color:var(--course-line,#dedfe3)} .ds-outline:hover{background:var(--course-wash,#f7f7f8);border-color:var(--course-blue,#002fa7)} @media(max-width:1100px){.ds-material{grid-template-columns:1fr;gap:1rem}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "University course catalogue",
+    "overview": "The university course catalogue uses white ground, charcoal reading type, blue actions, and fine rules. Its character is restrained and institutional; the workshop sequence supplies the structure.\n\nThe existing institutional logo remains compact in the navigation. Home, Setup, and Materials share this system; the presentation decks retain their separate existing slide styling.",
+    "keyCharacteristics": [
+      "White paper and fine neutral dividers.",
+      "One sans-serif family with clear size and weight hierarchy.",
+      "Numbered lesson headings and direct actions.",
+      "Flat surfaces with short colour transitions."
+    ],
+    "rules": [
+      {
+        "name": "Readable Sequence",
+        "body": "Do keep lesson numbers inside their headings at the same size as the lesson title.",
+        "section": "typography"
+      },
+      {
+        "name": "Flat Surface",
+        "body": "Separate content with spacing and fine rules; reserve the pale wash for restrained state and instructional emphasis.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep lesson numbers inside their headings at the same size as the lesson title.",
+      "Do use blue to identify links, primary actions, and selected navigation.",
+      "Do stack content in reading order on narrow screens.",
+      "Do preserve the existing institutional logo and its compact navigation placement."
+    ],
+    "donts": [
+      "Don't turn lesson numbers into tiny detached labels.",
+      "Don't introduce pills, shadows, decorative labels, or an oversized logo into the website.",
+      "Don't apply this website system to the existing presentation decks without a separate design decision."
+    ]
+  }
+}
