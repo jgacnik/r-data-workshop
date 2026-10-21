@@ -151,7 +151,7 @@ All keyboard targets use a two-pixel blue outline with four-pixel offset. Button
 
 ### Navigation
 
-The compact institutional brand sits before Setup and Materials. Resting navigation is muted slate; active, hovered, and focused links are blue. The active link gains a two-pixel underline. Below 991px Quarto's navigation collapses behind its toggle; search remains directly available.
+The compact institutional brand sits before Setup and Materials. Its site title uses the shared Helvetica stack at regular weight (400) with -.01em tracking, keeping it in the same typographic register as the reading content. Resting navigation is muted slate; active, hovered, and focused links are blue. The active link gains a two-pixel underline. Below 991px Quarto's navigation collapses behind its toggle; search remains directly available.
 
 ### Lesson and material rows
 

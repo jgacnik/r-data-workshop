@@ -31,7 +31,7 @@ code { color: var(--course-ink); background: var(--course-wash); border-radius: 
 .navbar { min-height: 90px; padding: 0; background: var(--course-paper); border-bottom: 1px solid var(--course-line); }
 .navbar > .navbar-container { width: min(100% - 6rem, 1248px); margin-inline: auto; padding: 0; justify-content: flex-start; }
 .navbar .navbar-brand-container { order: 1; flex: 1 1 auto; max-width: none; margin-right: auto !important; }
-.navbar-brand { color: var(--course-ink); font-size: 1rem; font-weight: 600; }
+.navbar-brand { color: var(--course-ink); font-family: var(--course-font); font-size: 1rem; font-weight: 400; letter-spacing: -.01em; }
 .navbar-brand img { max-height: 34px; }
 .navbar .navbar-nav { gap: 1.5rem; }
 .navbar .navbar-nav .nav-link { position: relative; padding: .65rem 0; color: var(--course-muted); font-size: .9375rem; font-weight: 500; }
