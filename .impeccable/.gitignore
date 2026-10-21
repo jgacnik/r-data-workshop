@@ -1,6 +1,8 @@
 # Local previews, captures, and design-decision runtime files.
 /questions/
 /review/
+/critique/
+/critique-evidence/
 /mocks/*
 !/mocks/decision/
 /mocks/decision/*

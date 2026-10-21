@@ -155,11 +155,11 @@ The compact institutional brand sits before Setup and Materials. Its site title 
 
 ### Lesson and material rows
 
-Fine bottom rules separate the course sequence. A number and lesson name form one heading, for example “1. Introduction to R.” Homepage rows link to slides; Materials pairs interactive slides with PDF actions. Descriptions remain plain text beneath the title. Sidecar examples preserve the current wording and state treatment without introducing new controls.
+Fine bottom rules separate the course sequence. A number and lesson name form one heading, for example “1. Introduction to R.” Homepage rows link to slides; Materials pairs interactive slides with PDF actions. Each action has a distinct lesson-specific accessible name while visible labels stay concise. Descriptions remain plain text beneath the title. Sidecar examples preserve the current wording and state treatment without introducing new controls.
 
 ### Operating-system tabs and instructional callouts
 
-Setup tabs are text labels above a fine rule; selection adds a blue two-pixel underline. The content has top padding without a panel shell. Instructional callouts use a pale wash, a fine border, square corners, and no shadow. Tip headers share the neutral wash, with a course-blue title and the existing Bootstrap lightbulb icon; they do not use Quarto's default green. Existing Quarto search and code blocks retain their framework behavior; no new form-field system is established here.
+Setup tabs are text labels above a fine rule; selection adds a blue two-pixel underline. Both OS tab groups share the selected platform, accessible state and keyboard tab stops. The choice persists on reload; scripts/setup-tabs.js supplements Quarto grouping. The content has top padding without a panel shell. Instructional callouts use a pale wash, a fine border, square corners, and no shadow. Tip headers share the neutral wash, with a course-blue title and the existing Bootstrap lightbulb icon; they do not use Quarto's default green. Existing Quarto search and code blocks retain their framework behavior; no new form-field system is established here.
 
 ## Do's and Don'ts
 

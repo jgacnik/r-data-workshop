@@ -20,7 +20,7 @@ Complete these steps **in order** before the workshop:
 
 R is the statistical computing engine that runs your code.
 
-::: {.panel-tabset}
+::: {.panel-tabset group="installation-os"}
 ### Windows
 
 1. Go to [CRAN for Windows](https://cran.r-project.org/bin/windows/base/).
@@ -52,7 +52,7 @@ R is the statistical computing engine that runs your code.
 
 RStudio is the editor used during the workshop. It provides the Console, script editor, Environment, plots, files, and help in one place.
 
-::: {.panel-tabset}
+::: {.panel-tabset group="installation-os"}
 ### Windows
 
 1. Open the [RStudio Desktop download page](https://posit.co/download/rstudio-desktop/#download).
@@ -96,7 +96,7 @@ library(tidyverse)
 library(readxl)
 ```
 
-If a there are no error messages, the software is ready. Warnings are normal.
+If there are no error messages, the software is ready. Warnings are normal.
 
 ## Troubleshooting
 
@@ -119,3 +119,7 @@ You are ready when RStudio opens and both packages load without errors.
 
 [View the course materials →](materials.qmd){.btn .btn-primary}
 :::
+
+```{=html}
+<script src="scripts/setup-tabs.js" defer></script>
+```

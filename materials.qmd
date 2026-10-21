@@ -16,8 +16,8 @@ Why R, the RStudio interface, objects, functions, packages, and the first analys
 :::
 
 ::: {.material-actions}
-[Interactive slides](R_part1.qmd){.btn .btn-primary}
-[PDF](downloads/slides/R_part1.pdf){.btn .btn-outline-secondary download=""}
+[Interactive slides](R_part1.qmd){.btn .btn-primary aria-label="Interactive slides: Part 1, Introduction to R"}
+[PDF](downloads/slides/R_part1.pdf){.btn .btn-outline-secondary download="" aria-label="PDF: Part 1, Introduction to R"}
 :::
 :::
 
@@ -29,8 +29,8 @@ The grammar of graphics, aesthetics, geometries, labels, themes, and faceting wi
 :::
 
 ::: {.material-actions}
-[Interactive slides](R_part2.qmd){.btn .btn-primary}
-[PDF](downloads/slides/R_part2.pdf){.btn .btn-outline-secondary download=""}
+[Interactive slides](R_part2.qmd){.btn .btn-primary aria-label="Interactive slides: Part 2, Data visualization"}
+[PDF](downloads/slides/R_part2.pdf){.btn .btn-outline-secondary download="" aria-label="PDF: Part 2, Data visualization"}
 :::
 :::
 
@@ -42,8 +42,8 @@ Filtering, creating variables, grouping, summarizing, missing values, and pipeli
 :::
 
 ::: {.material-actions}
-[Interactive slides](R_part3.qmd){.btn .btn-primary}
-[PDF](downloads/slides/R_part3.pdf){.btn .btn-outline-secondary download=""}
+[Interactive slides](R_part3.qmd){.btn .btn-primary aria-label="Interactive slides: Part 3, Data transformation"}
+[PDF](downloads/slides/R_part3.pdf){.btn .btn-outline-secondary download="" aria-label="PDF: Part 3, Data transformation"}
 :::
 :::
 
@@ -55,8 +55,8 @@ Tidy-data principles, long and wide formats, reshaping, and readable R code.
 :::
 
 ::: {.material-actions}
-[Interactive slides](R_part4.qmd){.btn .btn-primary}
-[PDF](downloads/slides/R_part4.pdf){.btn .btn-outline-secondary download=""}
+[Interactive slides](R_part4.qmd){.btn .btn-primary aria-label="Interactive slides: Part 4, Data tidying"}
+[PDF](downloads/slides/R_part4.pdf){.btn .btn-outline-secondary download="" aria-label="PDF: Part 4, Data tidying"}
 :::
 :::
 
@@ -68,8 +68,8 @@ Paths, RStudio projects, a reproducible folder structure, and importing a CSV fi
 :::
 
 ::: {.material-actions}
-[Interactive slides](R_part5.qmd){.btn .btn-primary}
-[PDF](downloads/slides/R_part5.pdf){.btn .btn-outline-secondary download=""}
+[Interactive slides](R_part5.qmd){.btn .btn-primary aria-label="Interactive slides: Part 5, Projects and data import"}
+[PDF](downloads/slides/R_part5.pdf){.btn .btn-outline-secondary download="" aria-label="PDF: Part 5, Projects and data import"}
 :::
 :::
 
@@ -81,8 +81,8 @@ A guided analysis that connects importing, transforming, tidying, visualising, m
 :::
 
 ::: {.material-actions}
-[Interactive slides](R_part6.qmd){.btn .btn-primary}
-[PDF](downloads/slides/R_part6.pdf){.btn .btn-outline-secondary download=""}
+[Interactive slides](R_part6.qmd){.btn .btn-primary aria-label="Interactive slides: Part 6, Complete project demonstration"}
+[PDF](downloads/slides/R_part6.pdf){.btn .btn-outline-secondary download="" aria-label="PDF: Part 6, Complete project demonstration"}
 :::
 :::
 :::
