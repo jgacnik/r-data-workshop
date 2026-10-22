@@ -49,6 +49,9 @@ body.course-home #quarto-content { display: block; }
 body.course-home #quarto-content main.content { display: block; width: min(100% - 6rem, 1248px); max-width: none; margin: 0 auto; padding: 0; }
 body.course-home #title-block-header { display: none; }
 .course-home .course-intro { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: clamp(3rem, 7vw, 6.25rem); padding: 3.875rem 0 3rem; }
+.course-home .course-intro { position: relative; isolation: isolate; }
+.course-intro .course-background { position: absolute; inset: 0; overflow: hidden; z-index: -1; pointer-events: none; }
+.course-background img { display: block; width: 100%; height: 100%; object-fit: cover; opacity: .14; transform: scale(1.2); transform-origin: right center; }
 .course-home .course-intro > .intro-copy, .course-home .course-intro > .course-preparation { grid-column: auto; grid-row: auto; }
 .course-intro h1 { margin: 0 0 1.5rem; font-size: clamp(3.25rem, 5vw, 4.5rem); font-weight: 500; line-height: 1.04; letter-spacing: -.03em; }
 .course-description { max-width: 680px; margin-bottom: 1.5rem; font-size: 1.125rem; line-height: 1.6; }
@@ -156,6 +159,8 @@ footer.footer { border-top: 1px solid var(--course-line); }
   .navbar-brand-logo { margin-right: .5rem; }
   .navbar #quarto-search { margin-inline: .5rem; }
   .course-home .course-intro { grid-template-columns: 1fr; gap: 2.5rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
+  .course-intro .course-background { height: 360px; }
+  .course-background img { width: 130%; max-width: none; margin-left: -30%; }
   .course-intro h1 { font-size: clamp(3rem, 10vw, 4rem); }
   .course-description { font-size: 1.0625rem; }
   .course-preparation { margin-top: 0; }

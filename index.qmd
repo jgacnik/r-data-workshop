@@ -9,6 +9,7 @@ body-classes: course-home
 
 ```{=html}
 <section class="course-intro" aria-labelledby="course-title">
+  <div class="course-background" aria-hidden="true"><img src="figures/course-density.svg" alt=""></div>
   <div class="intro-copy">
     <h1 id="course-title">Data Analysis<br>in R</h1>
     <p class="course-description">Build a practical foundation in R through six hands-on parts: from the first line of code to clear visualizations, reproducible transformations, tidy data, well-organized projects, and a complete demonstration.</p>
