@@ -48,6 +48,12 @@ code { color: var(--course-ink); background: var(--course-wash); border-radius: 
 body.course-home #quarto-content { display: block; }
 body.course-home #quarto-content main.content { display: block; width: min(100% - 6rem, 1248px); max-width: none; margin: 0 auto; padding: 0; }
 body.course-home #title-block-header { display: none; }
+@media (min-width: 1500px) {
+  body.course-home #quarto-content { position: relative; }
+  body.course-home #quarto-content::before, body.course-home #quarto-content::after { position: absolute; top: 4rem; bottom: 3rem; width: calc((100% - 1248px) / 2 - 3rem); content: ""; background: center top / 240px 100% no-repeat; opacity: .16; pointer-events: none; }
+  body.course-home #quarto-content::before { left: 0; background-image: url("figures/course-margin-left.svg"); }
+  body.course-home #quarto-content::after { right: 0; background-image: url("figures/course-margin-right.svg"); }
+}
 .course-home .course-intro { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: clamp(3rem, 7vw, 6.25rem); padding: 3.875rem 0 3rem; }
 .course-home .course-intro { position: relative; isolation: isolate; }
 .course-intro .course-background { position: absolute; inset: 0; overflow: hidden; z-index: -1; pointer-events: none; }
@@ -85,6 +91,10 @@ body.course-home #title-block-header { display: none; }
 /* Setup and materials are readable documents, without panel shells. */
 body.course-inner-page main.content { margin-top: 3rem; margin-bottom: 4rem; }
 .course-inner-page #title-block-header { margin-bottom: 2rem; }
+@media (min-width: 701px) {
+  .course-materials #title-block-header { position: relative; padding-right: 168px; }
+  .course-materials #title-block-header::after { position: absolute; top: 0; right: 0; width: 144px; height: 72px; content: ""; background: url("figures/course-materials-plot.svg") center / contain no-repeat; opacity: .3; pointer-events: none; }
+}
 .course-inner-page h1.title { max-width: 18ch; font-size: clamp(2.5rem, 4vw, 3.5rem); }
 .course-inner-page main.content > p { max-width: 70ch; }
 .course-inner-page main.content h2 { margin-top: 3rem; margin-bottom: 1rem; font-size: 1.75rem; }

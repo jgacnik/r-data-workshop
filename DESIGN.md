@@ -84,6 +84,8 @@ The existing institutional logo remains compact in the navigation. Home, Setup, 
 
 The homepage opening section carries three overlapping blue density curves as a decorative SVG background (`figures/course-density.svg`). The accepted treatment uses 14% opacity and a 1.2 scale, with the artwork concentrated toward the right. It stays behind the opening content and is hidden from assistive technology; mobile confines the artwork to the upper 360px.
 
+On screens at least 1500px wide, Home also has full-length outer-margin plots: a connected scatterplot on the left and varied violins on the right, at 16% opacity. Setup keeps a plain reading ground and clear table-of-contents space. Materials uses only a small decorative scatterplot beside its title above 700px; its resource rows remain plain. These CSS background decorations carry no accessible content or interaction.
+
 **Key Characteristics:**
 
 - White paper and fine neutral dividers.
