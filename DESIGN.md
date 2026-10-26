@@ -84,7 +84,7 @@ The existing institutional logo remains compact in the navigation. Home, Setup, 
 
 The homepage opening section carries three overlapping blue density curves as a decorative SVG background (`figures/course-density.svg`). The accepted treatment uses 14% opacity and a 1.2 scale, with the artwork concentrated toward the right. It stays behind the opening content and is hidden from assistive technology; mobile confines the artwork to the upper 360px.
 
-On screens at least 1500px wide, Home also has full-length outer-margin plots: a connected scatterplot on the left and varied violins on the right, at 16% opacity. Setup keeps a plain reading ground and clear table-of-contents space. Materials uses only a small decorative scatterplot beside its title above 700px; its resource rows remain plain. These CSS background decorations carry no accessible content or interaction.
+On screens at least 1100px wide, Home also has full-length outer-margin plots: a connected scatterplot on the left and varied violins on the right, at 16% opacity. Each plot is drawn 192px wide (20% narrower than the initial 240px) with at least 192px of drawing space so it stays whole on laptops, flowing behind the transparent main content instead of clipping at its edge. The plots sit behind the content and do not intercept pointer input. Setup keeps a plain reading ground and clear table-of-contents space. Materials uses only a small decorative scatterplot beside its title above 700px; its resource rows remain plain. These CSS background decorations carry no accessible content or interaction.
 
 **Key Characteristics:**
 
@@ -129,7 +129,7 @@ The frontmatter records source rem values. In the rendered Materials mobile page
 
 ## Layout
 
-The website uses open document flow rather than enclosing each section in a panel. The shared navigation and homepage content have a maximum width of 1248px and a width of `100% - 6rem`; below 700px the width becomes `100% - 2.5rem`. Navigation minimum height is 90px, reducing to 76px below 991px. The logo's maximum height is 34px, reducing to 30px below 700px.
+The website uses open document flow rather than enclosing each section in a panel. The shared navigation and homepage content have a maximum width of 1248px and a width of `100% - 6rem`; below 700px the width becomes `100% - 2.5rem`. Navigation minimum height is 90px, reducing to 76px below 991px; it grows as needed to accommodate the logo. The logo is 88px high, reducing to 64px below 700px to preserve room for the title and navigation controls.
 
 The homepage introduction has two columns (2:1) with a fluid gap; its syllabus has a 300px heading column and a flexible lesson column. At 1100px the syllabus heading column becomes 240px, then the syllabus stacks below 991px. The introduction stacks below 700px. Usage and download grids also become single-column below 700px.
 
