@@ -7,3 +7,8 @@
 
 **/*.quarto_ipynb
 .Rproj.user
+
+# Design-tool files (kept locally, not published)
+/DESIGN.md
+/PRODUCT.md
+/.impeccable/

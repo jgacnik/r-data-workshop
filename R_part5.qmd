@@ -1,19 +1,14 @@
 ---
-title: "R workshop part 5 - Paths, projects, and data import"
+title: "R workshop part 5 - Projects and data import"
 author: "Jan Gačnik"
 date: last-modified
 format:
   revealjs:
     slide-number: true
-    footer: "Projects & data import presentation"
+    footer: "Projects and data import presentation"
     logo: "figures/MPS_logo.png"
     css: styles.css
     chalkboard: true
-filters:
-  - webr
-webr:
-  show-startup-message: false
-  packages: ["tidyverse"]
 editor: visual
 ---
 
@@ -188,7 +183,9 @@ The names of columns have white space, and as it is annoying to manually rename 
 ```{r}
 #| echo: true
 #| eval: true
-mercury_air <- read_csv("data/mercury_air.csv", na = c("N/A", "")) %>% 
+library(janitor)
+
+mercury_air <- read_csv("data/mercury_air.csv", na = c("N/A", "")) %>%
   clean_names()
 
 mercury_air
@@ -313,7 +310,7 @@ data.frame(
 
 <!-- COURSE RECAP START -->
 
-## Part 1 · Introduction (1/2)
+## Part 1 · Introduction to R (1/2)
 
 ::::::: columns
 :::: {.column width="50%"}
@@ -339,7 +336,7 @@ data.frame(
 ::::
 :::::::
 
-## Part 1 · Introduction (2/2)
+## Part 1 · Introduction to R (2/2)
 
 :::::: columns
 ::: {.column width="55%"}
@@ -366,7 +363,7 @@ mean_mass <- mean(mass)
 ::::
 ::::::
 
-## Part 2 · Visualization (1/2)
+## Part 2 · Data visualization (1/2)
 
 ::: {style="font-size: 85%;"}
 **Data** → **aesthetic mappings** → **geometric layers**
@@ -400,7 +397,7 @@ ggplot(
 ::::
 ::::::
 
-## Part 2 · Visualization (2/2)
+## Part 2 · Data visualization (2/2)
 
 :::::: columns
 :::: {.column width="50%"}
@@ -451,7 +448,7 @@ Save the final plot with <kbd>ggsave()</kbd>; set its filename, size, and resolu
 :::
 
 ::: {.fragment style="font-size: 80%; margin-top: 0.8em; width: 82%;"}
-**Before summarising:** check missing values; use <kbd>na.rm = TRUE</kbd> when removal is appropriate.
+**Before summarizing:** check missing values; use <kbd>na.rm = TRUE</kbd> when removal is appropriate.
 :::
 
 ## Part 3 · Data transformation (2/2)
@@ -536,7 +533,7 @@ Orange %>%
 Use consistent spacing and indentation; break long pipelines and named arguments across lines.
 :::
 
-## Part 5 · Paths, projects, and data import
+## Part 5 · Projects and data import
 
 :::::: columns
 ::: {.column width="48%"}
@@ -571,5 +568,5 @@ We have covered the core R concepts. Now, let's use a real environmental dataset
 :::
 
 ::: {.fragment style="font-size: 100%; margin-top: 1em;"}
-**Final – project demo**
+**Part 6 - Complete project demonstration**
 :::

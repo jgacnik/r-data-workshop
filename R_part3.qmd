@@ -271,7 +271,7 @@ filter(penguins, year == 2007 | 2008)
 This does not give a direct error, but does not evaluate the logic the way you want.
 :::
 
-::: {.fragment data-fragment-index="2" style="font-size: 110%;"}
+::: {.fragment data-fragment-index="2" style="font-size: 110%; max-height: 250px; overflow-y: auto;"}
 ```{r}
 #| echo: false
 #| eval: true
@@ -367,7 +367,7 @@ Allows you to select, remove, and duplicate rows based on their (integer) locati
 - **positive** integers indicate you want to keep rows, **negative** integers indicate you want to remove rows
 :::
 
-::: {.fragment data-fragment-index="1" style="font-size: 110%;"}
+::: {.fragment data-fragment-index="1" style="font-size: 110%; max-height: 270px; overflow-y: auto;"}
 ```{r}
 #| echo: true
 #| eval: true
@@ -574,7 +574,7 @@ rename(penguins, "bill_len_mm" = bill_len)
 3\) Grouping
 :::
 
-## Group & summarise data
+## Group & summarize data
 
 ::: {style="font-size: 85%;"}
 Function <kbd>group_by()</kbd> *silently* creates grouping of data by a specified variable
@@ -598,7 +598,7 @@ group_by(penguins, species)
 ```
 :::
 
-## Group & summarise data
+## Group & summarize data
 
 ::: {style="font-size: 85%;"}
 Function <kbd>summarise()</kbd> then collapses many rows into single summary value *per group*, the summary statistic can be mean, median, quartiles, etc.
@@ -607,7 +607,7 @@ If data is not grouped, the function will be used on complete data.
 :::
 
 ::: {.fragment data-fragment-index="1" style="font-size: 75%;"}
-- Let's first demonstrate the summarise on non-grouped data:
+- Let's first demonstrate <kbd>summarise()</kbd> on non-grouped data:
 :::
 
 ::: {.fragment data-fragment-index="2" style="font-size: 110%;"}
@@ -626,7 +626,7 @@ summarise(penguins, avg_len = mean(flipper_len))
 ```
 :::
 
-## Group & summarise data
+## Group & summarize data
 
 ::: {style="font-size: 85%;"}
 Function <kbd>summarise()</kbd> then collapses many rows into single summary value *per group*, the summary statistic can be mean, median, quartiles, etc.
@@ -650,10 +650,10 @@ summarise(penguins, avg_len = mean(flipper_len, na.rm = TRUE))
 ```
 :::
 
-## Group & summarise data
+## Group & summarize data
 
 ::: {style="font-size: 85%;"}
-<kbd>group_by()</kbd> and <kbd>summarise()</kbd> usually work in tandem, where data is first grouped, and then summarised by group.
+<kbd>group_by()</kbd> and <kbd>summarise()</kbd> usually work in tandem, where data is first grouped, and then summarized by group.
 :::
 
 ::: {.fragment data-fragment-index="1" style="font-size: 70%;"}
@@ -900,11 +900,11 @@ Important functions and concepts, let's revise briefly before moving to next top
 Key <kbd>dplyr</kbd> functions ([cheat sheet](https://evoldyn.gitlab.io/evomics-2018/ref-sheets/R_data-transformation.pdf)):
 
 ::: {.fragment style="font-size: 80%;"}
-- <kbd>filter()</kbd> – choose rows based on logic operations
-- <kbd>select()</kbd> – choose columns based on column names
-- <kbd>mutate()</kbd> – create new columns or modify existing ones using calculations or functions
-- <kbd>group_by()</kbd> + <kbd>summarise()</kbd> – aggregate by group to create summary statistics
-- <kbd>%>%</kbd> – chain steps into a pipeline
+- <kbd>filter()</kbd> - choose rows based on logic operations
+- <kbd>select()</kbd> - choose columns based on column names
+- <kbd>mutate()</kbd> - create new columns or modify existing ones using calculations or functions
+- <kbd>group_by()</kbd> + <kbd>summarise()</kbd> - aggregate by group to create summary statistics
+- <kbd>%>%</kbd> - chain steps into a pipeline
 :::
 
 # Next up
@@ -915,5 +915,5 @@ Transformed data still needs the right *shape* to work well with <kbd>ggplot2</k
 :::
 
 ::: {.fragment style="font-size: 100%; margin-top: 1em;"}
-**Part 4 – Data tidying**
+**Part 4 - Data tidying**
 :::

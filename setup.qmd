@@ -18,7 +18,7 @@ Complete these steps **in order** before the workshop:
 
 ## 1. Install R
 
-R is the statistical computing engine that runs your code.
+R is the statistical computing engine that runs your code. The workshop needs **R 4.5 or newer**.
 
 ::: {.panel-tabset group="installation-os"}
 ### Windows
@@ -76,7 +76,7 @@ RStudio is the editor used during the workshop. It provides the Console, script 
 :::
 
 ::: {.callout-tip}
-Already have R and RStudio? Open RStudio and use **Help → Check for Updates**. A recent version is recommended.
+Already have R and RStudio? Run `R.version.string` in the RStudio Console; if it shows a version older than 4.5, install the current R from step 1. Use **Help → Check for Updates** to update RStudio.
 :::
 
 ## 3. Install the packages
@@ -84,7 +84,7 @@ Already have R and RStudio? Open RStudio and use **Help → Check for Updates**.
 Open RStudio and click inside the **Console** panel. Copy the following command, paste it after the `>` prompt, and press **Enter**:
 
 ```r
-install.packages(c("readxl", "tidyverse"))
+install.packages(c("readxl", "tidyverse", "janitor"))
 ```
 
 Installation may take several minutes. Messages and warnings are common; an `ERROR` message means that something needs attention.
@@ -94,6 +94,7 @@ When installation finishes, you can test if the packages can be loaded:
 ```r
 library(tidyverse)
 library(readxl)
+library(janitor)
 ```
 
 If there are no error messages, the software is ready. Warnings are normal.
@@ -115,7 +116,7 @@ Report installation problems before the workshop by emailing [jan.gacnik@ijs.si]
 ::: {.setup-complete}
 ### Setup complete
 
-You are ready when RStudio opens and both packages load without errors.
+You are ready when RStudio opens and all three packages load without errors.
 
 [View the course materials →](materials.qmd){.btn .btn-primary}
 :::

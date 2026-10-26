@@ -35,11 +35,9 @@ data("penguins", package = "datasets", envir = environment())
 ::: {.fragment data-fragment-index="1"}
 ![](figures/tidy_data.png){fig-align="center"}
 
-<p style="font-size: 50%; color: grey; margin-top: -1em;">
-
+::: {style="font-size: 50%; color: grey; margin-top: -1em;"}
 Source: Hadley Wickham, *R for Data Science*
-
-</p>
+:::
 :::
 
 ## Data tidying in R
@@ -137,11 +135,9 @@ First, we will learn data lengthening using the <kbd>pivot_longer()</kbd> functi
 ::: {.fragment data-fragment-index="1"}
 ![](figures/pivot_longer.png){fig-align="center" width="85%"}
 
-<p style="font-size: 50%; color: grey; margin-top: -1em;">
-
+::: {style="font-size: 50%; color: grey; margin-top: -1em;"}
 Source: Batra, Neale, et al. *The Epidemiologist R Handbook*. 2021
-
-</p>
+:::
 :::
 
 ## Data lengthening
@@ -384,11 +380,9 @@ Data widening is done using the <kbd>pivot_wider()</kbd> function
 ::: {.fragment data-fragment-index="1"}
 ![](figures/pivot_wider.png){fig-align="center" width="80%"}
 
-<p style="font-size: 50%; color: grey; margin-top: -1em;">
-
+::: {style="font-size: 50%; color: grey; margin-top: -1em;"}
 Source: Batra, Neale, et al. *The Epidemiologist R Handbook*. 2021
-
-</p>
+:::
 :::
 
 ## Data widening
@@ -659,5 +653,5 @@ Now that we know how to visualize, transform, and tidy our data, we can start fo
 :::
 
 ::: {.fragment style="font-size: 100%; margin-top: 1em;"}
-**Part 5 – Paths, projects, and data import**
+**Part 5 - Projects and data import**
 :::

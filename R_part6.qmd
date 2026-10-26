@@ -1,11 +1,11 @@
 ---
-title: "R workshop part 6 - Data project demonstration"
+title: "R workshop part 6 - Complete project demonstration"
 author: "Jan Gačnik"
 date: last-modified
 format:
   revealjs:
     slide-number: true
-    footer: "Data project demonstration"
+    footer: "Complete project demonstration"
     logo: "figures/MPS_logo.png"
     css: styles.css
     chalkboard: true
@@ -22,14 +22,14 @@ In this final demonstration, we will connect the main skills from the workshop i
 
 1. Import and inspect data
 2. Select, rename, and filter
-3. Group and summarise
-4. Reshape and visualise
+3. Group and summarize
+4. Reshape and visualize
 5. Model and save results
 
 :::
 
 ::: {.fragment data-fragment-index="2" style="font-size: 80%;"}
-Follow the slides, but run each section in <kbd>scripts/project_demonstration_new.R</kbd> in RStudio.
+Follow the slides, but run each section in <kbd>scripts/project_demonstration.R</kbd> in RStudio.
 :::
 
 ## The demonstration data
@@ -42,7 +42,7 @@ Follow the slides, but run each section in <kbd>scripts/project_demonstration_ne
 
 ::: {.column width="52%"}
 ::: {style="font-size: 76%;"}
-We will analyse <kbd>precipitation_ljubljana.xlsx</kbd>:
+We will analyze <kbd>precipitation_ljubljana.xlsx</kbd>:
 
 - monthly precipitation measurements from Ljubljana;
 - 44 years of observations, from 1981 to 2024;
@@ -65,7 +65,7 @@ example_project/
 ├── data/
 │   └── precipitation_ljubljana.xlsx
 ├── scripts/
-│   └── project_demonstration_new.R
+│   └── project_demonstration.R
 └── outputs/
 ```
 :::
@@ -119,7 +119,7 @@ isotope_data <- ljubljana_clean %>%
   filter(!is.na(d18o), !is.na(d2h))
 ```
 
-## 3. Group and summarise
+## 3. Group and summarize
 
 ::: {style="font-size: 78%;"}
 Run section 4. Change the level of observation from **one month** to **one year**.
@@ -163,7 +163,7 @@ isotopes_long <- isotope_data %>%
 Each row now contains one date, one isotope name, and one measured value: **tidy data**.
 :::
 
-## 5. Visualise
+## 5. Visualize
 
 ::: {style="font-size: 78%;"}
 Run section 6. The long data make it easy to use the same plot design for both isotopes.
@@ -237,8 +237,8 @@ Run the full script from top to bottom. Then make **one small change**:
 
 ::: {.fragment data-fragment-index="1" style="font-size: 82%;"}
 
-- analyse only observations from 2000 onwards;
-- change a colour or label in one plot; or
+- analyze only observations from 2000 onwards;
+- change a color or label in one plot; or
 - add one more statistic to <kbd>annual_summary</kbd>.
 
 :::
@@ -257,7 +257,7 @@ The demonstration joined the workshop parts into one script:
 
 - **Part 1:** objects, data frames, functions, and missing values
 - **Part 2:** plots and a simple linear model
-- **Part 3:** selecting, filtering, grouping, and summarising
+- **Part 3:** selecting, filtering, grouping, and summarizing
 - **Part 4:** tidy data and reshaping
 - **Part 5:** projects, relative paths, importing, and exporting
 

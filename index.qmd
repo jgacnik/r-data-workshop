@@ -37,7 +37,7 @@ body-classes: course-home
       <a class="lesson-action" href="R_part4.html" aria-label="Open Part 4: Data tidying">Open slides</a></li>
     <li><div class="lesson-copy"><h3><a href="R_part5.html">5. Projects and data import</a></h3><p>Use relative paths, organize an RStudio project, and import real data reliably.</p></div>
       <a class="lesson-action" href="R_part5.html" aria-label="Open Part 5: Projects and data import">Open slides</a></li>
-    <li><div class="lesson-copy"><h3><a href="R_part6.html">6. Complete project demonstration</a></h3><p>A guided analysis that connects importing, transforming, tidying, visualising, modelling, and exporting.</p></div>
+    <li><div class="lesson-copy"><h3><a href="R_part6.html">6. Complete project demonstration</a></h3><p>A guided analysis that connects importing, transforming, tidying, visualizing, modeling, and exporting.</p></div>
       <a class="lesson-action" href="R_part6.html" aria-label="Open Part 6: Complete project demonstration">Open slides</a></li>
   </ol>
 </section>

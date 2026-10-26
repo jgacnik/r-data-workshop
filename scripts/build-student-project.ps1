@@ -19,7 +19,6 @@ $excludedFiles = @(
     ".Rhistory",
     ".DS_Store",
     "Thumbs.db",
-    "project_demonstration.R",
     "annual_isotope_summary.csv",
     "isotope_relationship.png",
     "isotopes_through_time.png"

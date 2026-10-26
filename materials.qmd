@@ -77,7 +77,7 @@ Paths, RStudio projects, a reproducible folder structure, and importing a CSV fi
 ::: {.material-part}
 ## 6. Complete project demonstration {#complete-project-demonstration}
 
-A guided analysis that connects importing, transforming, tidying, visualising, modelling, and exporting.
+A guided analysis that connects importing, transforming, tidying, visualizing, modeling, and exporting.
 :::
 
 ::: {.material-actions}

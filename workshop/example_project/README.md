@@ -5,7 +5,7 @@ This starter project accompanies Parts 5 and 6 of the Data Analysis in R worksho
 1. Extract the ZIP file.
 2. Open `example_project.Rproj` in RStudio.
 3. For Part 5, open `scripts/import_data.R` and import `data/mercury_air.csv`.
-4. For Part 6, open `scripts/project_demonstration_new.R` and run it section by section.
+4. For Part 6, open `scripts/project_demonstration.R` and run it section by section.
 
 The `data/` folder contains the files used in both demonstrations, including the precipitation data for Part 6.
 

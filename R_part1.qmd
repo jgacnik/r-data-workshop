@@ -1,13 +1,14 @@
 ---
-title: "R workshop part 1 - Introduction"
+title: "R workshop part 1 - Introduction to R"
 author: "Jan Gačnik"
 date: last-modified
 format:
   revealjs:
     slide-number: true
-    footer: "Introductory presentation"
+    footer: "Introduction to R presentation"
     logo: "figures/MPS_logo.png"
     css: styles.css
+    chalkboard: true
 filters:
   - webr
 webr:
@@ -73,7 +74,7 @@ Why not just ![](figures/chatgpt.png){style="vertical-align: -20px;" width="15%"
 
 ::: {.fragment fragment-index="1" style="font-size: 0.75em;"}
 - People who know R get dramatically more value from AI assistants than beginners
-- AI as a copilot – you still need to know how to fly
+- AI as a copilot - you still need to know how to fly
 :::
 
 ::: {.fragment data-fragment-index="2" style="font-size: 1em;"}
@@ -103,7 +104,7 @@ Open access to all research outputs from publicly funded projects - **data analy
 
 (5) Projects and data import
 
-(6) Demonstration on an example project
+(6) Complete project demonstration
 
 ::: {style="font-size: 0.5em; margin-top: 1em;"}
 Workshop materials based on:
@@ -156,19 +157,19 @@ Finally, we have the 4 RStudio windows open, let's explain what is what
 ![](figures/RStudio_orientation_3.png){width="80%"}
 
 ::: {.fragment data-fragment-index="1" style="position: absolute; top: 25%; left: 15%; background: rgba(0,0,0,0.75); color: white; padding: 4px 10px; border-radius: 6px; font-size: 0.5em;"}
-**Source** – write & save scripts
+**Source** - write & save scripts
 :::
 
 ::: {.fragment data-fragment-index="2" style="position: absolute; bottom: 7%; left: 15%; background: rgba(0,0,0,0.75); color: white; padding: 4px 10px; border-radius: 6px; font-size: 0.5em;"}
-**Console** – run code, see output
+**Console** - run code, see output
 :::
 
 ::: {.fragment data-fragment-index="3" style="position: absolute; top: 20%; right: 5%; background: rgba(0,0,0,0.75); color: white; padding: 4px 10px; border-radius: 6px; font-size: 0.5em;"}
-**Environment/History** – objects you've created
+**Environment/History** - objects you've created
 :::
 
 ::: {.fragment data-fragment-index="4" style="position: absolute; bottom: 20%; right: 10%; background: rgba(0,0,0,0.75); color: white; padding: 4px 10px; border-radius: 6px; font-size: 0.5em;"}
-**Outputs** – browse, view, look up, help
+**Outputs** - browse, view, look up, help
 :::
 :::::::
 
@@ -254,7 +255,7 @@ sqrt(400)
 :::
 
 ::: {.fragment data-fragment-index="2" style="font-size: 80%;"}
-Functions can get complex – documentation is your friend!
+Functions can get complex - documentation is your friend!
 :::
 
 ## Comments in the code
@@ -373,10 +374,10 @@ sqrt(new_object)
 Every object in R has a **type** (also called a **class**)
 
 ::: {.fragment data-fragment-index="1" style="font-size: 80%;"}
-- **numeric** – numbers, e.g. <kbd>144</kbd>, <kbd>3.14</kbd>
-- **character** – text (strings), e.g. <kbd>"Atlantic"</kbd>
-- **logical** – <kbd>TRUE</kbd> / <kbd>FALSE</kbd>
-- **factor** – categorical data with fixed levels, e.g. <kbd>"low"</kbd>, <kbd>"medium"</kbd>, <kbd>"high"</kbd>
+- **numeric** - numbers, e.g. <kbd>144</kbd>, <kbd>3.14</kbd>
+- **character** - text (strings), e.g. <kbd>"Atlantic"</kbd>
+- **logical** - <kbd>TRUE</kbd> / <kbd>FALSE</kbd>
+- **factor** - categorical data with fixed levels, e.g. <kbd>"low"</kbd>, <kbd>"medium"</kbd>, <kbd>"high"</kbd>
 :::
 
 ::: {.fragment data-fragment-index="2" style="font-size: 70%; margin-top: 1em;"}
@@ -480,7 +481,7 @@ numeric_vector > 20
 :::
 
 ::: {.fragment data-fragment-index="2" style="font-size: 70%; margin-top: 1em;"}
-- The result is a **logical vector** – itself a type we can store, count, or use to filter data
+- The result is a **logical vector** - itself a type we can store, count, or use to filter data
 :::
 
 ## Logical vectors and comparisons
@@ -517,7 +518,7 @@ na_vector
 :::
 
 ::: {.fragment data-fragment-index="2" style="font-size: 70%; margin-top: 1em;"}
-- <kbd>NA</kbd> is "contagious" – most calculations involving <kbd>NA</kbd> return <kbd>NA</kbd>:
+- <kbd>NA</kbd> is "contagious" - most calculations involving <kbd>NA</kbd> return <kbd>NA</kbd>:
 :::
 
 ::: {.fragment data-fragment-index="2" style="font-size: 120%;"}
@@ -558,7 +559,7 @@ sum(na_vector, na.rm = TRUE)
 :::
 
 ::: {.fragment data-fragment-index="2" style="font-size: 70%;"}
-- Keep an eye out for <kbd>NA</kbd>s – forgetting about them is one of the most common beginner mistakes!
+- Keep an eye out for <kbd>NA</kbd>s - forgetting about them is one of the most common beginner mistakes!
 :::
 
 ## More complex objects
@@ -702,7 +703,7 @@ Packages contain useful functions (and sometimes data) created by the community
 :::
 
 ::: {.fragment data-fragment-index="2"}
-CRAN packages are installed using <kbd>install.packages()</kbd> – only once is needed
+CRAN packages are installed using <kbd>install.packages()</kbd> - only once is needed
 :::
 
 ::: {.fragment data-fragment-index="2" style="font-size: 120%;"}
@@ -731,7 +732,7 @@ A package that includes a *family of packages*:
 :::
 
 ::: {.fragment data-fragment-index="2" style="font-size: 80%;"}
-Other notable packages: <kbd>readxl</kbd> (reading Excel files), <kbd>sf</kbd> (spatial data), <kbd>tidymodels</kbd> (modelling & machine learning), <kbd>data.table</kbd> (big data handling), and many more.
+Other notable packages: <kbd>readxl</kbd> (reading Excel files), <kbd>sf</kbd> (spatial data), <kbd>tidymodels</kbd> (modeling & machine learning), <kbd>data.table</kbd> (big data handling), and many more.
 :::
 
 ## Loading packages
@@ -780,5 +781,5 @@ Now that we can orient ourselves in RStudio, create objects, and load packages, 
 :::
 
 ::: {.fragment style="font-size: 100%; margin-top: 1em;"}
-**Part 2 – Visualization** with <kbd>ggplot2</kbd>
+**Part 2 - Data visualization** with <kbd>ggplot2</kbd>
 :::

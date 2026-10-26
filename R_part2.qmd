@@ -1,11 +1,11 @@
 ---
-title: "R workshop part 2 - Visualization"
+title: "R workshop part 2 - Data visualization"
 author: "Jan Gačnik"
 date: last-modified
 format:
   revealjs:
     slide-number: true
-    footer: "Visualization presentation"
+    footer: "Data visualization presentation"
     logo: "figures/MPS_logo.png"
     css: styles.css
     chalkboard: true
@@ -965,5 +965,5 @@ Plots are only as good as the data behind them. Next, we'll learn to reshape and
 :::
 
 ::: {.fragment style="font-size: 100%; margin-top: 1em;"}
-**Part 3 – Data transformation** with <kbd>dplyr</kbd>
+**Part 3 - Data transformation** with <kbd>dplyr</kbd>
 :::
