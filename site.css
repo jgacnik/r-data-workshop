@@ -33,6 +33,7 @@ code { color: var(--course-ink); background: var(--course-wash); border-radius: 
 .navbar .navbar-brand-container { order: 1; flex: 1 1 auto; max-width: none; margin-right: auto !important; }
 .navbar-brand { color: var(--course-ink); font-family: var(--course-font); font-size: 1rem; font-weight: 400; letter-spacing: -.01em; }
 .navbar-brand img { height: 88px; max-height: 88px; width: auto; }
+.navbar .navbar-brand.navbar-brand-logo { margin-right: 1.25rem; }
 .navbar .navbar-nav { gap: 1.5rem; }
 .navbar .navbar-nav .nav-link { position: relative; padding: .65rem 0; color: var(--course-muted); font-size: .9375rem; font-weight: 500; }
 .navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link:focus-visible, .navbar .navbar-nav .nav-link.active { color: var(--course-blue); }
@@ -167,7 +168,7 @@ footer.footer { border-top: 1px solid var(--course-line); }
   .navbar-brand { font-size: .875rem; }
   .navbar-brand img { height: 64px; max-height: 64px; }
   .navbar-brand .navbar-title { white-space: normal; line-height: 1.25; }
-  .navbar-brand-logo { margin-right: .5rem; }
+  .navbar .navbar-brand.navbar-brand-logo { margin-right: 1rem; }
   .navbar #quarto-search { margin-inline: .5rem; }
   .course-home .course-intro { grid-template-columns: 1fr; gap: 2.5rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
   .course-intro .course-background { height: 360px; }

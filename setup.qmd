@@ -2,8 +2,8 @@
 title: "Installation and preparation"
 description: "Install R, RStudio, and the packages needed for the Data Analysis in R workshop."
 body-classes: course-inner-page
-toc: true
-toc-title: "On this page"
+toc: false
+repo-actions: false
 ---
 
 Complete these steps **in order** before the workshop:
