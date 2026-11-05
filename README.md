@@ -1,10 +1,10 @@
 # Data Analysis in R
 
-This repository holds the website and materials for an introductory **Data Analysis in R** workshop. The website has setup instructions, Quarto Reveal.js slides with R code students can run in the browser (webR), printable PDFs, and a starter project to download.
+This repository holds the website and materials for a beginner to intermediate **Data Analysis in R** workshop. The website has setup instructions, Quarto Reveal.js slides with R code students can run in the browser (webR), printable PDFs, and a starter project to download.
 
 ## Student website
 
-The course website is at https://jgacnik.github.io/r-data-workshop/.
+The workshop website is at https://jgacnik.github.io/r-data-workshop/.
 
 Students should begin with the website's **Setup** page, then use **Materials** to open the presentations and download the starter project.
 
@@ -31,7 +31,7 @@ GitHub Actions renders the slides and publishes them on the website, so the rend
 
 ## Rendering
 
-Install [R 4.6.0 or later](https://cran.r-project.org/) (the slides use the base-R `penguins` dataset), [Quarto](https://quarto.org/), and the R packages `tidyverse`, `knitr`, and `janitor`. Render the complete website from the repository root with:
+Install [R 4.5 or newer](https://cran.r-project.org/) (the slides use the base-R `penguins` dataset), [Quarto](https://quarto.org/), and the R packages `tidyverse`, `knitr`, and `janitor`. Render the complete website from the repository root with:
 
 ```sh
 quarto render

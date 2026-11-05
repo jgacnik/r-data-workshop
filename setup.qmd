@@ -1,6 +1,6 @@
 ---
-title: "Installation and preparation"
-description: "Install R, RStudio, and the packages needed for the Data Analysis in R workshop."
+title: "Setup guide"
+description: "Install R, RStudio, and the packages needed for the Data Analysis in R workshop, then test the starter project."
 body-classes: course-inner-page
 toc: false
 repo-actions: false
@@ -14,6 +14,8 @@ Complete these steps **in order** before the workshop:
 <span><strong>2</strong> RStudio</span>
 <span class="path-arrow">→</span>
 <span><strong>3</strong> Packages</span>
+<span class="path-arrow">→</span>
+<span><strong>4</strong> Starter project</span>
 :::
 
 ## 1. Install R
@@ -87,9 +89,9 @@ Open RStudio and click inside the **Console** panel. Copy the following command,
 install.packages(c("readxl", "tidyverse", "janitor"))
 ```
 
-Installation may take several minutes. Messages and warnings are common; an `ERROR` message means that something needs attention.
+Installation may take several minutes. Messages and warnings are common; an `ERROR` message means a package did not install (see [Troubleshooting](#troubleshooting)).
 
-When installation finishes, you can test if the packages can be loaded:
+When installation finishes, check that the packages load:
 
 ```r
 library(tidyverse)
@@ -97,7 +99,16 @@ library(readxl)
 library(janitor)
 ```
 
-If there are no error messages, the software is ready. Warnings are normal.
+If there are no error messages, the packages are ready.
+
+## 4. Test the starter project
+
+1. Download [`example_project.zip`](downloads/example_project.zip){download=""} and extract it. The project will not work from inside the ZIP.
+2. In the extracted `example_project` folder, double-click `example_project.Rproj` to open the project in RStudio.
+3. In the **Files** panel, open the `scripts` folder and click `import_data.R`.
+4. Click **Source** at the top right of the script panel.
+
+If the Console shows `Rows: 12` and `Columns: 5`, you are ready for the workshop.
 
 ## Troubleshooting
 
@@ -114,11 +125,7 @@ Restart RStudio and run the installation command again. Copy the complete final 
 Report installation problems before the workshop by emailing [jan.gacnik@ijs.si](mailto:jan.gacnik@ijs.si). Include your operating system and a screenshot or copy of the complete error message.
 
 ::: {.setup-complete}
-### Setup complete
-
-You are ready when RStudio opens and all three packages load without errors.
-
-[View the course materials →](materials.qmd){.btn .btn-primary}
+[View the workshop materials →](materials.qmd){.btn .btn-primary}
 :::
 
 ```{=html}

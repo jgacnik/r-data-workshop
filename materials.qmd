@@ -1,11 +1,11 @@
 ---
-title: "Course materials"
-description: "Interactive presentations, printable PDFs, data, and the starter RStudio project."
+title: "Workshop materials"
+description: "Interactive slides, printable PDFs, data, and the starter project."
 body-classes: course-inner-page course-materials
 toc: false
 ---
 
-Use the interactive HTML presentations during the workshop. The PDF versions are provided for printing, offline reading, and quick reference.
+Use the interactive slides during the workshop. The PDFs are for printing, offline reading, and quick reference.
 
 ::: {.materials-list}
 ::: {.material-row}
@@ -64,7 +64,7 @@ Tidy-data principles, long and wide formats, reshaping, and readable R code.
 ::: {.material-part}
 ## 5. Projects and data import {#projects-and-data-import}
 
-Paths, RStudio projects, a reproducible folder structure, and importing a CSV file.
+Paths, RStudio projects, the `data/`, `scripts/`, and `outputs/` folders, and importing a CSV file.
 :::
 
 ::: {.material-actions}
@@ -77,7 +77,7 @@ Paths, RStudio projects, a reproducible folder structure, and importing a CSV fi
 ::: {.material-part}
 ## 6. Complete project demonstration {#complete-project-demonstration}
 
-A guided analysis that connects importing, transforming, tidying, visualizing, modeling, and exporting.
+A full analysis of a real dataset, with import, cleaning, summaries, plots, a simple model, and saved outputs.
 :::
 
 ::: {.material-actions}
@@ -91,9 +91,9 @@ A guided analysis that connects importing, transforming, tidying, visualizing, m
 
 ::: {.download-grid}
 ::: {.download-card}
-### Starter RStudio project
+### Starter project
 
-The prepared project used in Parts 5 and 6, including the scripts, data, and recommended folder structure.
+The RStudio project used in Parts 5 and 6, with the scripts, data, and recommended folder structure.
 
 [Download `example_project.zip`](downloads/example_project.zip){.btn .btn-primary download=""}
 :::

@@ -84,9 +84,6 @@ body.course-home #title-block-header { display: none; }
 .use-item { padding-top: 1rem; border-top: 1px solid var(--course-line); }
 .use-item h3 { margin: 0 0 .75rem; font-size: 1.25rem; }
 .use-item p { margin-bottom: 0; color: var(--course-muted); font-size: 1rem; }
-.next-step { margin: 3.5rem 0 4rem; padding-top: 2rem; border-top: 1px solid var(--course-line); }
-.next-step h3 { margin: 0 0 1.25rem; font-size: 1.5rem; }
-.next-step p { display: flex; align-items: center; flex-wrap: wrap; gap: 1.25rem; }
 
 /* Setup and materials are readable documents, without panel shells. */
 body.course-inner-page main.content { margin-top: 3rem; margin-bottom: 4rem; }
@@ -117,7 +114,6 @@ body.course-inner-page main.content { margin-top: 3rem; margin-bottom: 4rem; }
 .course-inner-page div.callout-tip.callout-style-default > .callout-header { color: var(--course-blue); background: var(--course-wash); }
 .course-inner-page div.callout-tip .callout-icon::before { content: "\f46b"; font-family: bootstrap-icons; font-size: 1rem; font-style: normal; line-height: 1; color: var(--course-blue); background-image: none; }
 .setup-complete { margin-top: 3rem; padding: 1.75rem 0 0; border-top: 1px solid var(--course-ink); }
-.course-inner-page .setup-complete h3 { margin-top: 0; }
 .materials-list { margin: 2rem 0 3.5rem; border-top: 1px solid var(--course-ink); }
 .material-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1.5rem; align-items: center; padding: 1.5rem 0; border-bottom: 1px solid var(--course-line); }
 .course-inner-page main.content .material-row h2 { margin: 0 0 .45rem; font-size: 1.25rem; }
@@ -188,7 +184,6 @@ footer.footer { border-top: 1px solid var(--course-line); }
   .lesson-action { grid-column: 1; margin-top: .6rem; }
   .course-usage { margin-top: 3rem; }
   .use-grid, .download-grid { grid-template-columns: 1fr; gap: 1.75rem; }
-  .next-step { margin-block: 2.5rem; }
   body.course-inner-page main.content { margin-top: 2rem; margin-bottom: 2.5rem; }
   .course-inner-page h1.title { font-size: 2.5rem; }
   .setup-path { gap: .7rem; font-size: .9375rem; }

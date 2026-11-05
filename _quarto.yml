@@ -11,8 +11,8 @@ project:
 
 website:
   title: "Data Analysis in R"
-  favicon: figures/MPS_logo.png
-  description: "Installation instructions, interactive presentations, and workshop files for an introductory Data Analysis in R course."
+  favicon: figures/favicon.png
+  description: "A setup guide, interactive slides, and files for a beginner to intermediate Data Analysis in R workshop."
   site-url: "https://jgacnik.github.io/r-data-workshop/"
   repo-url: "https://github.com/jgacnik/r-data-workshop"
   repo-actions: [source, issue]
@@ -28,7 +28,7 @@ website:
     right:
       - icon: github
         href: "https://github.com/jgacnik/r-data-workshop"
-        aria-label: "Course repository on GitHub"
+        aria-label: "Workshop repository on GitHub"
   page-footer:
     left: "![Jožef Stefan International Postgraduate School](/figures/MPS_logo_transparent.png){.footer-seal width=112 height=112} Workshop developed and led by Asst. Prof. Jan Gačnik"
     right:
