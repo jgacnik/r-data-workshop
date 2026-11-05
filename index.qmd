@@ -25,7 +25,7 @@ body-classes: course-home
 </section>
 
 <section class="course-syllabus" aria-labelledby="syllabus-title">
-  <div class="syllabus-heading"><h2 id="syllabus-title">What you will learn</h2><img class="syllabus-seal" src="figures/MPS_logo_transparent.png" alt="Jožef Stefan International Postgraduate School"></div>
+  <div class="syllabus-heading"><h2 id="syllabus-title">What you will learn</h2><img class="syllabus-seal" src="figures/MPS_logo_transparent.png" width="256" height="256" alt="Jožef Stefan International Postgraduate School"></div>
   <ol class="lesson-list">
     <li><div class="lesson-copy"><h3><a href="R_part1.html">1. Introduction to R</a></h3><p>Understand why R is useful, meet RStudio, work with objects and functions, and learn how packages extend R.</p></div>
       <a class="lesson-action" href="R_part1.html" aria-label="Open Part 1: Introduction to R">Open slides</a></li>

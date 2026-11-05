@@ -30,7 +30,7 @@ website:
         href: "https://github.com/jgacnik/r-data-workshop"
         aria-label: "Course repository on GitHub"
   page-footer:
-    left: "![Jožef Stefan International Postgraduate School](/figures/MPS_logo_transparent.png){.footer-seal} Workshop developed and led by Asst. Prof. Jan Gačnik"
+    left: "![Jožef Stefan International Postgraduate School](/figures/MPS_logo_transparent.png){.footer-seal width=112 height=112} Workshop developed and led by Asst. Prof. Jan Gačnik"
     right:
       - text: "Contact Jan Gačnik at jan.gacnik@ijs.si"
         href: "mailto:jan.gacnik@ijs.si"
