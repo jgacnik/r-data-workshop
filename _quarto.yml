@@ -18,8 +18,6 @@ website:
   repo-actions: [source, issue]
   search: true
   navbar:
-    logo: figures/MPS_logo.png
-    logo-alt: "Jožef Stefan International Postgraduate School"
     background: "#ffffff"
     foreground: "#20242a"
     left:
@@ -32,7 +30,7 @@ website:
         href: "https://github.com/jgacnik/r-data-workshop"
         aria-label: "Course repository on GitHub"
   page-footer:
-    left: "Workshop developed and led by Asst. Prof. Jan Gačnik"
+    left: "![Jožef Stefan International Postgraduate School](/figures/MPS_logo_transparent.png){.footer-seal} Workshop developed and led by Asst. Prof. Jan Gačnik"
     right:
       - text: "Contact Jan Gačnik at jan.gacnik@ijs.si"
         href: "mailto:jan.gacnik@ijs.si"
